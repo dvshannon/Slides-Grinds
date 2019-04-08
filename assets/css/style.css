@@ -2,6 +2,7 @@ body {
   background-image: url(../../assets/images/bg-sandg.png);
   background-size: 100vh;
   background-position:top 20% center;
+  background-attachment: fixed;
   font-size: 1.2rem;
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
@@ -24,11 +25,17 @@ body {
   padding-top: 10px;
 }
 
-input {
+.options {
   padding: 4px 0;
   border: none;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
+}
+select {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.07rem;
+  color: #000;
+  border: 1px #5EC2E6 solid;
 }
 
 button {
@@ -44,4 +51,35 @@ button {
 
 button:active, button:hover {
   background-color:#5EC2E6;
+}
+
+.tricks-completed {
+  padding-top: 20px;
+  font-family: 'Permanent Marker', arial, sans-serif;
+}
+.landedBtn:nth-child(odd) {
+  background-color: #24242449;
+  border-top: 2px solid #928661;
+  border-bottom: 2px solid #928661;
+}
+/* [data-type='land'] {
+  background-color: green;
+}
+
+[data-type='bail'] {
+  background-color: red;
+} */
+
+@media only screen and (min-width: 769px) {
+  body {
+    background-image: url(../../assets/images/slides-grind-bg.png);
+    background-size: cover;
+  }
+
+}
+@media only screen and (orientation: landscape) {
+  body {
+    background-image: url(../../assets/images/slides-grind-bg.png);
+    background-size: cover;
+  }
 }
