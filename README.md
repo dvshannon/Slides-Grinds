@@ -1,4 +1,4 @@
-# Slides-Grinds
+# Trickmember
 Trick Counter app for Slides &amp; Grinds conteset
 
 ### Functionality
