@@ -1,5 +1,5 @@
 # Trickmember
-Trick Counter app for Slides &amp; Grinds conteset
+Trick Counter app for Slides &amp; Grinds contest
 
 ### Functionality
 * Keep track of completed tricks
